@@ -74,16 +74,22 @@ export default function Publications() {
             <ul className="side-link">
               <li>
                 <div className="side-border-left" />
-                <Link to="/Areas">Areas</Link>
+                <Link to="/Areas">
+                  <p>Research Areas</p>
+                </Link>
               </li>
               <li>
                 <div className="side-border-left" />
-                <Link to="/Project">Project</Link>
+                <Link to="/Project">
+                  <p>Projects</p>
+                </Link>
               </li>
               <li>
                 {' '}
                 <div className="side-border-left" />
-                <Link to="/Publication">Publications</Link>
+                <Link to="/Publications">
+                  <p>Publications</p>
+                </Link>
               </li>
             </ul>
           </div>

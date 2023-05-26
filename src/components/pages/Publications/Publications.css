@@ -21,7 +21,7 @@
   justify-content: center;
   align-items: center;
   height: 125px;
-  background: linear-gradient(to right, #82308e, #323232);
+  background: linear-gradient(to right, #82308e, rgb(42, 39, 167));
 }
 h3 {
   font-size: xx-large;
@@ -38,7 +38,9 @@ h3 {
   text-decoration: none;
   list-style: none;
 }
-
+.side-border-left > p {
+  text-align: center;
+}
 .side-link > li:hover .side-border-left {
   transition: 1s all;
   background-color: #82308e;
@@ -69,8 +71,11 @@ h3 {
 }
 .side-link > li > a {
   text-decoration: none;
+  text-align: center;
 }
-
+h3 {
+  text-align: center;
+}
 @keyframes borderAnimation {
   0% {
     height: 0;

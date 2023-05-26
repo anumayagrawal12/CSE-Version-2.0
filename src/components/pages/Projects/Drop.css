@@ -43,7 +43,7 @@ header h1 {
 }
 
 .drops .drop .drop-question::after {
-  content: 'v';
+  content: "v";
   position: absolute;
   top: 50%;
   right: 0px;
@@ -65,13 +65,13 @@ header h1 {
 }
 
 .drops .drop.open .drop-question::after {
-  content: '^';
+  content: "^";
 }
 
 .drops .drop.open .drop-answer {
   max-height: 1000px;
   opacity: 1;
 }
-/* .drop-answer {
+.drop-answer{
   text-align: left;
-} */
+}
