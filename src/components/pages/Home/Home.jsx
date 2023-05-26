@@ -1,5 +1,5 @@
 import React from 'react';
-
+import NewsandAnnouncement from '../NewsAndAnnouncement/NewsAndAnnouncement';
 export default function Home() {
   return (
     <div>
@@ -17,6 +17,7 @@ export default function Home() {
         volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
         luctus, metus
       </p>
+      <NewsandAnnouncement />
     </div>
   );
 }
