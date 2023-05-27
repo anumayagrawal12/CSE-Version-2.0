@@ -17,6 +17,22 @@ const myComponent = {
   overflowY: 'scroll',
 };
 export default function NewsAndAnnouncement() {
+  const newsArray = [
+    { link: '/', descript: 'Lorem ipsum dolor sit' },
+    { link: '/', descript: 'Lorem ipsum dolor sit' },
+    { link: '/', descript: 'Lorem ipsum dolor sit' },
+    { link: '/', descript: 'Lorem ipsum dolor sit' },
+    { link: '/', descript: 'Lorem ipsum dolor sit' },
+    { link: '/', descript: 'Lorem ipsum dolor sit' },
+    { link: '/', descript: 'Lorem ipsum dolor sit' },
+    { link: '/', descript: 'Lorem ipsum dolor sit' },
+    { link: '/', descript: 'Lorem ipsum dolor sit' },
+    { link: '/', descript: 'Lorem ipsum dolor sit' },
+    { link: '/', descript: 'Lorem ipsum dolor sit' },
+    { link: '/', descript: 'Lorem ipsum dolor sit' },
+    { link: '/', descript: 'Lorem ipsum dolor sit' },
+    { link: '/', descript: 'Lorem ipsum dolor sit' },
+  ];
   return (
     <>
       <div className="first">
@@ -26,53 +42,14 @@ export default function NewsAndAnnouncement() {
           <div className="news" style={myComponent}>
             <div></div>
             <table className="newstable">
-              <tr>
-                <Tablerow />
-                <a href='/'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Fugiat
-                </a>{' '}
-              </tr>
-              <tr>
-                <Tablerow />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat{' '}
-              </tr>
-              <tr>
-                <Tablerow />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat{' '}
-              </tr>
-              <tr>
-                <Tablerow />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat{' '}
-              </tr>
-              <tr>
-                <Tablerow />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat{' '}
-              </tr>
-              <tr>
-                <Tablerow />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat{' '}
-              </tr>
-              <tr>
-                <Tablerow />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat{' '}
-              </tr>
-              <tr>
-                <Tablerow />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat{' '}
-              </tr>
-              <tr>
-                <Tablerow />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat{' '}
-              </tr>
-              <tr>
-                <Tablerow />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat{' '}
-              </tr>
-              <tr>
-                <Tablerow />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat{' '}
-              </tr>
+              {newsArray.map(({ link, descript }) => (
+                <tr>
+                  <Tablerow />
+                  <a href="link">
+                    <p>{descript}</p>
+                  </a>{' '}
+                </tr>
+              ))}
             </table>
           </div>
         </div>
