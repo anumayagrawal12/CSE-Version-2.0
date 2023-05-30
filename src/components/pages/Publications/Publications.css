@@ -21,7 +21,7 @@
   justify-content: center;
   align-items: center;
   height: 125px;
-  background: linear-gradient(to right, #82308e, rgb(42, 39, 167));
+  background: linear-gradient(to right, #82308e, #323232);
 }
 h3 {
   font-size: xx-large;
@@ -39,7 +39,12 @@ h3 {
   list-style: none;
 }
 .side-border-left > p {
-  text-align: center;
+  text-align: left;
+  align-content: center;
+  align-items: center;
+}
+.side-border-left > p {
+  text-align: left;
 }
 .side-link > li:hover .side-border-left {
   transition: 1s all;
@@ -69,9 +74,9 @@ h3 {
   width: 3px;
   background-color: #eaeaea;
 }
-.side-link > li > a {
+.side-link > li > p {
   text-decoration: none;
-  text-align: center;
+  text-align: left;
 }
 h3 {
   text-align: center;

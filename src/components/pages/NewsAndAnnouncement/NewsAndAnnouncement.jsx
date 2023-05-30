@@ -18,36 +18,34 @@ const myComponent = {
 };
 export default function NewsAndAnnouncement() {
   const newsArray = [
-    { link: '/', descript: 'Lorem ipsum dolor sit' },
-    { link: '/', descript: 'Lorem ipsum dolor sit' },
-    { link: '/', descript: 'Lorem ipsum dolor sit' },
-    { link: '/', descript: 'Lorem ipsum dolor sit' },
-    { link: '/', descript: 'Lorem ipsum dolor sit' },
-    { link: '/', descript: 'Lorem ipsum dolor sit' },
-    { link: '/', descript: 'Lorem ipsum dolor sit' },
-    { link: '/', descript: 'Lorem ipsum dolor sit' },
-    { link: '/', descript: 'Lorem ipsum dolor sit' },
-    { link: '/', descript: 'Lorem ipsum dolor sit' },
-    { link: '/', descript: 'Lorem ipsum dolor sit' },
-    { link: '/', descript: 'Lorem ipsum dolor sit' },
-    { link: '/', descript: 'Lorem ipsum dolor sit' },
-    { link: '/', descript: 'Lorem ipsum dolor sit' },
+    { date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
+    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
+    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
+    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
+    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
+    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
+    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
+    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
+    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
+    {  date:"30 may 2023" ,link: '/', descript: 'Lorem ipsum dolor sit' },
   ];
   return (
     <>
       <div className="first">
-        {/* <img src="https://i.postimg.cc/zGycZBWm/images.jpg" className="img" alt="NEWS"></img> */}
         <div className="heading">
           <h3>News And Announcement</h3>
           <div className="news" style={myComponent}>
             <div></div>
             <table className="newstable">
-              {newsArray.map(({ link, descript }) => (
+              {newsArray.map(({date, link, descript }) => (
                 <tr>
                   <Tablerow />
+                  <div classname="datenews">
+                    <p>{date}</p>
                   <a href="link">
-                    <p>{descript}</p>
-                  </a>{' '}
+                    <div classname="descript">{descript}</div>
+                  </a>
+                  </div>
                 </tr>
               ))}
             </table>

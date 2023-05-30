@@ -74,7 +74,7 @@ export default function Publications() {
             <ul className="side-link">
               <li>
                 <div className="side-border-left" />
-                <Link to="/Areas">
+                <Link to="/Research-Areas">
                   <p>Research Areas</p>
                 </Link>
               </li>

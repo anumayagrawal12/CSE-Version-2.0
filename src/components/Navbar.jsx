@@ -39,7 +39,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="parent-menu">
-            <Link  to="/About" onClick={handleMenuToggle}>
+            <Link to="/About" onClick={handleMenuToggle}>
               About
             </Link>
             <div className="jt"></div>
@@ -62,13 +62,17 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="parent-menu">
-            <Link to="/ResearchAreas" className="mobile-line-break" onClick={handleMenuToggle}>
+            <Link
+              to="/Research-Areas"
+              className="mobile-line-break"
+              onClick={handleMenuToggle}
+            >
               Research Areas
             </Link>
             <div className="jt"></div>
             <ul className="animenu_nav_child">
               <li>
-                <Link to="/ResearchAreas" onClick={handleMenuToggle}>
+                <Link to="/Research-Areas" onClick={handleMenuToggle}>
                   Areas
                 </Link>
               </li>
@@ -85,7 +89,11 @@ export default function Navbar() {
             </ul>
           </li>
           <li className="parent-menu">
-            <Link to="/Course" className="mobile-line-break" onClick={handleMenuToggle}>
+            <Link
+              to="/Course"
+              className="mobile-line-break"
+              onClick={handleMenuToggle}
+            >
               Student Zone
             </Link>
             <div className="jt"></div>
@@ -131,4 +139,4 @@ export default function Navbar() {
       </nav>
     </div>
   );
-  }
+}

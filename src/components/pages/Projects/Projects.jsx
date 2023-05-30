@@ -72,7 +72,7 @@ export default function Projects() {
             <ul className="side-link">
               <li>
                 <div className="side-border-left" />
-                <Link to="/Areas"><p>Research Areas</p></Link>
+                <Link to="/Research-Areas"><p>Research Areas</p></Link>
               </li>
               <li>
                 <div className="side-border-left" />

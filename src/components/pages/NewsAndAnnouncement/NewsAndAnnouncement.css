@@ -40,7 +40,7 @@ h3 {
   color: black;
 }
 .newstable > tr > a:hover {
-  color: #82308e;
+  color: white;
 }
 .news {
   border: 0px solid black;
@@ -52,15 +52,22 @@ h3 {
 }
 tr {
   border: solid;
-  border-width: 2px 0;
+  border-width: 0px 0;
   display: flex;
   flex-direction: row;
   text-align: left;
+  padding: 0.5rem;
 }
 tr:nth-child(even) {
-  background-color: rgb(42, 39, 167);
-  color: white;
+  background-color: #82308e;
+  color: white !important;
 }
+.descript > tr:nth-child(even) {
+  color: white !important;
+}
+/* .datenews>tr:nth-child(even){
+  color: white;
+} */
 @media screen and (max-width: 800px) {
   div > .first {
     flex-direction: column;
