@@ -47,17 +47,39 @@ export default function Research() {
           name: 'Dr.Dilip Singh Sisodia',
           proflink: '',
         },
+        {
+          imglink: 'https://i.postimg.cc/hGJPnStH/Ms-Aakanksha-Sharaff.jpg',
+          name: 'Dr. Aakanksha Sharaff',
+          proflink: '',
+        },
+        {
+          imglink: 'https://i.postimg.cc/c4hXNWch/Naresh-Kumar-Nagwani.jpg',
+          name: 'Dr.Naresh Kumar Nagwani',
+          proflink: '',
+        },
+      ],
+    },
+    {
+      areaname: 'Software Engineering',
+      content: [
+        {
+          imglink: 'https://i.postimg.cc/hGJPnStH/Ms-Aakanksha-Sharaff.jpg',
+          name: 'Dr. Aakanksha Sharaff',
+          proflink: '',
+        },
+        {
+          imglink: 'https://i.postimg.cc/c4hXNWch/Naresh-Kumar-Nagwani.jpg',
+          name: 'Dr.Naresh Kumar Nagwani',
+          proflink: '',
+        },
+        {
+          imglink: 'https://i.postimg.cc/CK1TTJm5/Mr-Pradeep-Singh.jpg',
+          name: 'Dr.Pradeep Singh',
+          proflink: '',
+        },
       ],
     },
   ];
-  // const AiMl=[
-  //   {imglink:"https://i.postimg.cc/C52R1xhg/Mr-Dilip-Singh-Sisodia.jpg",name:"Dr.Dilip Singh Sisodia",proflink:""},
-  //   {imglink:"https://i.postimg.cc/d3V4q9MF/Mr-Pradeep-Singh.jpg",name:"Dr.Pradeep Singh",proflink:""},
-  //   {imglink:"https://i.postimg.cc/fRC7b9KT/jitendra.jpg",name:"Dr.Jitendra Kumar Rout",proflink:""},
-  //   {imglink:"https://i.postimg.cc/tgVgc0YQ/sonal-yadav.png",name:"Dr.Sonal Yadav",proflink:""},
-  //   {imglink:"https://i.postimg.cc/KvWXK18F/ravi.jpg",name:"Mr.Ravi Kumar",proflink:""},
-  //   {imglink:"https://i.postimg.cc/1X4CPK6F/visahal.jpg",name:"Mr.Vishal Sathawane",proflink:""},
-  // ];
   return (
     <>
       <div className="main-box">
